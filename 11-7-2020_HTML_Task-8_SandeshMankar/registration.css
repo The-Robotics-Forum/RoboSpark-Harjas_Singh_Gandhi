@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url("./images/bg5.jpg") fixed no-repeat ;
+    background-size: cover;
+}
+.Registration h1{
+
+color: seashell;
+display: block;
+font-size: 40px;
+border-bottom:6px  solid white;
+margin-bottom: 50px;
+padding: 12px 0;
+float: left;
+
+}
+
+.Registration{
+    position: absolute;
+    width: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+    
+}
+.reg input{
+    width: 100%;
+    overflow: hidden;;
+    font-size: 20px;
+    margin: 10px 0;
+    padding: 12px 0;
+    
+    
+}
+.reg i{
+    
+    text-align: center;
+    color: white;
+    float: left;
+    padding: 12px 0;
+    
+   
+}
+.reg input{
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 18px;
+    width: 80%;
+    margin: 1px 10px;
+}
+::placeholder {
+    color: rgb(216, 181, 25)
+}
+.Registration p{
+    color: white;
+}
+.Registration a{
+    color: green;
+}
+
+
+.submitbtn {
+    width: 100%;
+    background: none;
+    font-size: 20px;
+    padding: 5px;
+    margin: 20px;
+    border: 2px solid white;
+    color: white;
+   cursor: pointer;
+    }
+
+.submitbtn :hover{
+    color: teal;
+}
+.Registration a:hover{
+    color: yellow;
+}
+.submitbtn:hover{
+    color: #395D33;
+    background-color: #83F52C;
+    transition: 0.5s;
+}

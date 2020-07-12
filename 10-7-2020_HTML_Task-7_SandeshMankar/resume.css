@@ -1,0 +1,20 @@
+
+body{
+    background: url("./images/bg4.jpg");
+   
+}
+h1
+{
+  color:white;
+}
+p{
+  color:lavender;
+  opacity: 2;
+}
+li{
+  color:lavender;
+  opacity: 2;
+}
+a{
+    color: salmon;
+}
