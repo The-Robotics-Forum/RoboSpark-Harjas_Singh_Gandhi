@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url("../images/bg5.jpg" ) fixed no-repeat;
+    background-size: cover;
+
+}
+.login-box{
+    position: absolute;
+    width: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+.login-box h1{
+    display: block;
+    float: left;
+    font-size: 40px;
+    border-bottom: 3px solid white;
+    margin-bottom: 10px;
+    padding: 12px 0;
+}
+.form_input{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: solid 1px;
+}
+.form_input i{
+    width: 30px;
+    float: left;
+    text-align: center;
+}
+.form_input input{
+    border: none;
+    background: none;
+    outline: none;
+    color: white;
+    font-size: 18px;
+    width: 80%;
+    margin: 1px 10px;
+}
+.submit-button{
+    width: 100%;
+    background: transparent;
+    font-size: 20px;
+    color: white;
+    padding: 5px;
+    margin-top: 20px;
+    border: 1px solid;
+    cursor: pointer;
+}
+
+.submit-button:hover{
+    color: green;
+    background: greenyellow;
+    transition: 0.5s;
+}
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
