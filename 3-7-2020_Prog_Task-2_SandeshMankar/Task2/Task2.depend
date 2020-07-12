@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1594576217 source:e:\vit\robospark2020\tasks\task2\task2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
