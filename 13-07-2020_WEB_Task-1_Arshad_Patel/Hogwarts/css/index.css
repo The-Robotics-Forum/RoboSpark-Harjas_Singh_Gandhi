@@ -1,0 +1,85 @@
+body{
+    background: url("../images/hogwarts.jpg");
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+}
+
+th, td {
+    border: 1mm solid black;
+    border-collapse: collapse;
+    padding: 15px;
+    border-spacing: 5px;
+    width: 100%;
+    font-size: larger;
+
+}
+table {
+    margin-top: 30mm;
+    border: 1mm solid black;
+    border-collapse: collapse;
+    padding: 15px;
+    border-spacing: 5px;
+    width: 100%;
+    font-size: larger;
+
+}
+
+.login-box{
+    position: absolute;
+    width: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+h1{
+    display: block;
+    font-size: 40px;
+    color: darkred;
+    margin-bottom: 10px;
+    padding: 12px 0;
+}
+.form_input{
+    width: 100%;
+    overflow: hidden;
+    color: darkred;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: solid 1px;
+}
+.form_input i{
+    width: 30px;
+    float: left;
+    text-align: center;
+}
+.form_input input{
+    border: none;
+    background: none;
+    outline: none;
+    color: darkred;
+    font-size: 18px;
+    width: 80%;
+    margin: 1px 10px;
+}
+.submit-button{
+    width: 100%;
+    background: transparent;
+    font-size: 20px;
+    color: darkred;
+    padding: 5px;
+    margin-top: 20px;
+    border: 1px solid darkred;
+    cursor: pointer;
+}
+
+.submit-button:hover{
+    color: darkred;
+    background: crimson;
+    transition: 0.5s;
+}
+::placeholder {
+    color: darkred;
+}
